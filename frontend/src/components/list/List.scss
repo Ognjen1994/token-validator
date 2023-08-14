@@ -1,0 +1,11 @@
+.list {
+  padding: initial;
+
+  &::before {
+    content: attr(aria-label);
+  }
+
+  & > li {
+    list-style-type: none;
+  }
+}
